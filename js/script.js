@@ -71,7 +71,7 @@ function changer(){
   document.getElementById('answer1').innerHTML = "Cette page fait allusion aux Simpsons car il s'agit d'un exo 'StandBy' ayant eu pour thème les Séries Américanes et ce fut la série choisie !";
   document.getElementById('question2').innerHTML = "Est-ce que les autres séries américaines seront référencées sur cette page ?";
   document.getElementById('answer2').innerHTML = "Eh bien non ! Désolé pour les fans de séries américaines mais l'exercice ne concerne pas les séries américaines en général mais une en particulier ( Google est votre ami :) )!";
-  document.getElementById('titledivimg').innerHTML = "Voici les Simpsons (devant la maison situé au 742 Evergreen Terrace à Springfield) :";
+  document.getElementById('titledivimg').innerHTML = "Voici les Simpsons (devant la maison située au 742 Evergreen Terrace à Springfield) :";
   document.getElementById('contact').innerHTML = "Contact :";
   document.getElementById('name').innerHTML = "Name :";
   document.getElementById('FName').innerHTML = "First Name :";
