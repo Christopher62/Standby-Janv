@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Akbar;
+  src: url("../fonts/akbar.ttf");
+}
+@font-face {
+  font-family: Homer_Simpson;
+  src: url("../fonts/Homer_Simpson.ttf");
+}
+@font-face {
+  font-family: Simpson;
+  src: url("../fonts/Simpsonfont.ttf");
+}
+html body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden; /* pour le form : div class row donne scroll */
+  background-color: yellow;
+}
+h2{
+  text-align: center;
+}
+.page-header{
+  margin-top: 0;
+  background-image: url("../images/frausa.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.blue{
+  color: darkblue;
+}
+.degrade{
+  color: white;
+  text-shadow: 4px 0px black;
+}
+.red{
+  color: darkred;
+}
+.button{
+  display: block;
+  margin: auto;
+}
+.jumbotron p{
+  font-family: Akbar;
+}
+.jumbotron{
+  margin-top: 15px;
+  text-align: center;
+}
+#question1, #question2{
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-top: 10px;
+  color: rgb(54, 167, 222);
+}
+#answer1, #answer2{
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+  font-family: Homer_Simpson;
+  font-size: 25px;
+  color: rgb(255, 56, 3);
+}
+#titledivimg{
+  font-family: Homer_Simpson;
+}
+#divimg{
+  text-align: center;
+}
+#divimg img{
+  width: 50%;
+  height: 50%;
+}
+label{
+  margin-left: 15px;
+}
+#btnform{
+  margin-right: 26%;
+}
+#toTop{
+  display: none;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
